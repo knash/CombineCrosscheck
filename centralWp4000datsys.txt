@@ -1,0 +1,57 @@
+
+imax 6
+jmax *
+kmax *
+---------------
+shapes * * NanoAODskim_Combine__centralWp4000.root $CHANNEL/$PROCESS $CHANNEL/$PROCESS_$SYSTEMATIC
+---------------
+bin    				tHb2016	tZb2016	tHb2017	tZb2017	tHb2018	tZb2018
+observation			-1	-1	-1	-1	-1	-1
+---------------
+bin				tHb2016	tHb2016	tHb2016	tHb2017	tHb2017	tHb2017	tHb2018	tHb2018	tHb2018	tZb2016	tZb2016	tZb2016	tZb2017	tZb2017	tZb2017	tZb2018	tZb2018	tZb2018
+process			 	Wp4000 	qcd 	ttbar 	Wp4000 	qcd 	ttbar 	Wp4000 	qcd 	ttbar 	Wp4000 	qcd 	ttbar 	Wp4000 	qcd 	ttbar 	Wp4000 	qcd 	ttbar
+process			 	0 	2 	1 	0 	2 	1 	0 	2 	1 	0 	2 	1 	0 	2 	1 	0 	2 	1
+rate			 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1
+lumi			lnN	1.023 	- 	-	1.025 	- 	-	1.023 	- 	-	1.023 	- 	-	1.025 	- 	-	1.023 	- 	-
+bkg2016			shape 	- 	1 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	- 	- 	- 	- 	- 	-
+bkg2017			shape 	- 	- 	- 	- 	1 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	- 	- 	-
+bkg2018			shape 	- 	- 	- 	- 	- 	- 	- 	1 	- 	- 	- 	- 	- 	- 	- 	- 	1 	-
+bmistag2016		shape 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	-
+bmistag2017		shape 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	-
+bmistag2018		shape 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1
+btag2016		shape 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	-
+btag2017		shape 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	-
+btag2018		shape 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1
+extrap2016		shape 	- 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	-
+extrap2017		shape 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	-
+extrap2018		shape 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	1
+hmistag2016		shape 	1 	- 	1 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	-
+hmistag2017		shape 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	-
+hmistag2018		shape 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	- 	- 	-
+htag2016		shape 	1 	- 	1 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	-
+htag2017		shape 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	-
+htag2018		shape 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	- 	- 	-
+jer2016			shape 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	-
+jer2017			shape 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	-
+jer2018			shape 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1
+jes2016			shape 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	-
+jes2017			shape 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	-
+jes2018			shape 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1
+jmr2016			shape 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	-
+jmr2017			shape 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	-
+jmr2018			shape 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1
+jms2016			shape 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	-
+jms2017			shape 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	-
+jms2018			shape 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1
+pu2016			shape 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	-
+pu2017			shape 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	-
+pu2018			shape 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1
+trig2016		shape 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	-
+trig2017		shape 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	-
+trig2018		shape 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1
+ttag2016		shape 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	-
+ttag2017		shape 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	-
+ttag2018		shape 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1
+wtag2016		shape 	- 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	-
+wtag2017		shape 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	-
+wtag2018		shape 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	1
