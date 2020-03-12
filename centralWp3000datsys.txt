@@ -12,7 +12,12 @@ bin				tHb2016	tHb2016	tHb2016	tHb2017	tHb2017	tHb2017	tHb2018	tHb2018	tHb2018	t
 process			 	Wp3000 	qcd 	ttbar 	Wp3000 	qcd 	ttbar 	Wp3000 	qcd 	ttbar 	Wp3000 	qcd 	ttbar 	Wp3000 	qcd 	ttbar 	Wp3000 	qcd 	ttbar
 process			 	0 	2 	1 	0 	2 	1 	0 	2 	1 	0 	2 	1 	0 	2 	1 	0 	2 	1
 rate			 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1 	-1
-lumi			lnN	1.023 	- 	-	1.025 	- 	-	1.023 	- 	-	1.023 	- 	-	1.025 	- 	-	1.023 	- 	-
+lumi2016		lnN	1.023 	- 	-	- 	- 	-	- 	- 	-	1.023 	- 	-	- 	- 	-	- 	- 	-
+lumi2017		lnN	- 	- 	-	1.025 	- 	-	- 	- 	-	- 	- 	-	1.025 	- 	-	- 	- 	-
+lumi2018		lnN	- 	- 	-	- 	- 	-	1.023 	- 	-	- 	- 	-	- 	- 	-	1.023 	- 	-
+ttclos2016		lnN 	- 	-	1.14 	- 	-	- 	- 	-	- 	- 	-	1.14 	- 	-	- 	- 	-	-
+ttclos2017		lnN 	- 	-	- 	- 	-	1.14 	- 	-	- 	- 	-	- 	- 	-	1.14 	- 	-	-
+ttclos2018		lnN 	- 	-	- 	- 	-	- 	- 	-	1.10 	- 	-	- 	- 	-	- 	- 	-	1.10
 bkg2016			shape 	- 	1 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	- 	- 	- 	- 	- 	-
 bkg2017			shape 	- 	- 	- 	- 	1 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	- 	- 	-
 bkg2018			shape 	- 	- 	- 	- 	- 	- 	- 	1 	- 	- 	- 	- 	- 	- 	- 	- 	1 	-
@@ -55,3 +60,4 @@ ttag2018		shape 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	- 	1 	- 	1
 wtag2016		shape 	- 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	- 	- 	- 	-
 wtag2017		shape 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	1 	- 	- 	-
 wtag2018		shape 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	- 	1 	- 	1
+* autoMCStats 	0 	0 	1
